@@ -118,6 +118,9 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Inc/dma.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Inc/fdcan.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Inc/gpio.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
@@ -140,6 +143,9 @@
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/dma.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/fdcan.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/freertos.c">
@@ -289,6 +295,9 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
@@ -404,6 +413,9 @@
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
@@ -559,10 +571,19 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/BMI088reg.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/DJI_motors.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/IMU_DATA_GET.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/MahonyAHRS.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/bsp_can.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/can_receive.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/remote_control.h">
@@ -586,6 +607,9 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/DEBUG_UART_TASK.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/DJI_motors.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/IMU_DATA_GET.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
@@ -593,6 +617,12 @@
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/MahonyAHRS.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/bsp_can.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/can_receive.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/remote_control.c">

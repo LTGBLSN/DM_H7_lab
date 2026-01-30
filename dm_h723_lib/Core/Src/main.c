@@ -20,6 +20,7 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "dma.h"
+#include "fdcan.h"
 #include "memorymap.h"
 #include "spi.h"
 #include "usart.h"
@@ -31,6 +32,7 @@
 #include "uart_printf.h"
 #include "remote_control.h"
 #include "BMI088driver.h"
+#include "bsp_can.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -80,6 +82,11 @@ int main(void)
 
   /* USER CODE END 1 */
 
+  /* Enable the CPU Cache */
+
+  /* Enable I-Cache---------------------------------------------------------*/
+  SCB_EnableICache();
+
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
@@ -103,6 +110,11 @@ int main(void)
   MX_USART1_UART_Init();
   MX_UART5_Init();
   MX_SPI2_Init();
+  MX_FDCAN1_Init();
+  MX_FDCAN2_Init();
+  MX_FDCAN3_Init();
+  MX_UART7_Init();
+  MX_USART10_UART_Init();
   /* USER CODE BEGIN 2 */
 
     while(BMI088_init());
@@ -114,6 +126,8 @@ int main(void)
 #if REMOTE_TYPE == DBUS
     HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_dbus_buff, DBUS_BUFF_SIZE);
 #endif
+
+    BSP_FDCAN_Init();
 
   /* USER CODE END 2 */
 
@@ -166,7 +180,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLM = 2;
   RCC_OscInitStruct.PLL.PLLN = 40;
   RCC_OscInitStruct.PLL.PLLP = 1;
-  RCC_OscInitStruct.PLL.PLLQ = 2;
+  RCC_OscInitStruct.PLL.PLLQ = 4;
   RCC_OscInitStruct.PLL.PLLR = 2;
   RCC_OscInitStruct.PLL.PLLRGE = RCC_PLL1VCIRANGE_3;
   RCC_OscInitStruct.PLL.PLLVCOSEL = RCC_PLL1VCOWIDE;

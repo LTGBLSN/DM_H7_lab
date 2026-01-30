@@ -60,6 +60,7 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_mdma.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_exti.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_cortex.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_fdcan.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash_ex.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_hsem.h \
@@ -75,4 +76,5 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/MahonyAHRS.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/struct_typedef.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/IMU_DATA_GET.h
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/IMU_DATA_GET.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/DJI_motors.h

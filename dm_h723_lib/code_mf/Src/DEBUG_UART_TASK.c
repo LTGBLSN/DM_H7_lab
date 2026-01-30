@@ -7,15 +7,14 @@
 #include "cmsis_os.h"
 #include "remote_control.h"
 #include "IMU_DATA_GET.h"
+#include "DJI_motors.h"
 
 void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%f,%f,%f \r\n",
-                      imu_data_from_board_BMI088_mahony.roll_degree_angle,
-                      imu_data_from_board_BMI088_mahony.yaw_degree_angle,
-                      imu_data_from_board_BMI088_mahony.pitch_degree_angle);
+        usart1_printf("%d \r\n",
+                      motor_can1_data[0].speed_rpm);
         osDelay(5);
     }
 }

@@ -39,6 +39,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/dma.c" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/dma.c.obj.d"
+  "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/fdcan.c" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/fdcan.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/fdcan.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/freertos.c" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/freertos.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/gpio.c" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Core/Src/main.c" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Core/Src/main.c.obj.d"
@@ -56,6 +57,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj.d"
+  "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj.d"
@@ -86,9 +88,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/BMI088Middleware.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/BMI088driver.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/DEBUG_UART_TASK.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj.d"
+  "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/DJI_motors.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DJI_motors.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DJI_motors.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/IMU_DATA_GET.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/LED_TASK.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/MahonyAHRS.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj.d"
+  "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/bsp_can.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/bsp_can.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/bsp_can.c.obj.d"
+  "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/can_receive.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/can_receive.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/can_receive.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/remote_control.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/uart_printf.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj.d"
   "D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/ws2812.c" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj" "gcc" "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj.d"

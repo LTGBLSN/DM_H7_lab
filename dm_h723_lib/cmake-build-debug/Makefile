@@ -152,6 +152,30 @@ Core/Src/dma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Core/Src/dma.c.s
 .PHONY : Core/Src/dma.c.s
 
+Core/Src/fdcan.obj: Core/Src/fdcan.c.obj
+.PHONY : Core/Src/fdcan.obj
+
+# target to build an object file
+Core/Src/fdcan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Core/Src/fdcan.c.obj
+.PHONY : Core/Src/fdcan.c.obj
+
+Core/Src/fdcan.i: Core/Src/fdcan.c.i
+.PHONY : Core/Src/fdcan.i
+
+# target to preprocess a source file
+Core/Src/fdcan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Core/Src/fdcan.c.i
+.PHONY : Core/Src/fdcan.c.i
+
+Core/Src/fdcan.s: Core/Src/fdcan.c.s
+.PHONY : Core/Src/fdcan.s
+
+# target to generate assembly for a file
+Core/Src/fdcan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Core/Src/fdcan.c.s
+.PHONY : Core/Src/fdcan.c.s
+
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
@@ -567,6 +591,30 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.s: Drivers/STM32H7xx_HAL_Dri
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s
 
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.obj
@@ -1288,6 +1336,30 @@ code_mf/Src/DEBUG_UART_TASK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.s
 .PHONY : code_mf/Src/DEBUG_UART_TASK.c.s
 
+code_mf/Src/DJI_motors.obj: code_mf/Src/DJI_motors.c.obj
+.PHONY : code_mf/Src/DJI_motors.obj
+
+# target to build an object file
+code_mf/Src/DJI_motors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DJI_motors.c.obj
+.PHONY : code_mf/Src/DJI_motors.c.obj
+
+code_mf/Src/DJI_motors.i: code_mf/Src/DJI_motors.c.i
+.PHONY : code_mf/Src/DJI_motors.i
+
+# target to preprocess a source file
+code_mf/Src/DJI_motors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DJI_motors.c.i
+.PHONY : code_mf/Src/DJI_motors.c.i
+
+code_mf/Src/DJI_motors.s: code_mf/Src/DJI_motors.c.s
+.PHONY : code_mf/Src/DJI_motors.s
+
+# target to generate assembly for a file
+code_mf/Src/DJI_motors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DJI_motors.c.s
+.PHONY : code_mf/Src/DJI_motors.c.s
+
 code_mf/Src/IMU_DATA_GET.obj: code_mf/Src/IMU_DATA_GET.c.obj
 .PHONY : code_mf/Src/IMU_DATA_GET.obj
 
@@ -1359,6 +1431,54 @@ code_mf/Src/MahonyAHRS.s: code_mf/Src/MahonyAHRS.c.s
 code_mf/Src/MahonyAHRS.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.s
 .PHONY : code_mf/Src/MahonyAHRS.c.s
+
+code_mf/Src/bsp_can.obj: code_mf/Src/bsp_can.c.obj
+.PHONY : code_mf/Src/bsp_can.obj
+
+# target to build an object file
+code_mf/Src/bsp_can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/bsp_can.c.obj
+.PHONY : code_mf/Src/bsp_can.c.obj
+
+code_mf/Src/bsp_can.i: code_mf/Src/bsp_can.c.i
+.PHONY : code_mf/Src/bsp_can.i
+
+# target to preprocess a source file
+code_mf/Src/bsp_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/bsp_can.c.i
+.PHONY : code_mf/Src/bsp_can.c.i
+
+code_mf/Src/bsp_can.s: code_mf/Src/bsp_can.c.s
+.PHONY : code_mf/Src/bsp_can.s
+
+# target to generate assembly for a file
+code_mf/Src/bsp_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/bsp_can.c.s
+.PHONY : code_mf/Src/bsp_can.c.s
+
+code_mf/Src/can_receive.obj: code_mf/Src/can_receive.c.obj
+.PHONY : code_mf/Src/can_receive.obj
+
+# target to build an object file
+code_mf/Src/can_receive.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/can_receive.c.obj
+.PHONY : code_mf/Src/can_receive.c.obj
+
+code_mf/Src/can_receive.i: code_mf/Src/can_receive.c.i
+.PHONY : code_mf/Src/can_receive.i
+
+# target to preprocess a source file
+code_mf/Src/can_receive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/can_receive.c.i
+.PHONY : code_mf/Src/can_receive.c.i
+
+code_mf/Src/can_receive.s: code_mf/Src/can_receive.c.s
+.PHONY : code_mf/Src/can_receive.s
+
+# target to generate assembly for a file
+code_mf/Src/can_receive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/can_receive.c.s
+.PHONY : code_mf/Src/can_receive.c.s
 
 code_mf/Src/remote_control.obj: code_mf/Src/remote_control.c.obj
 .PHONY : code_mf/Src/remote_control.obj
@@ -1444,6 +1564,9 @@ help:
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s
+	@echo ... Core/Src/fdcan.obj
+	@echo ... Core/Src/fdcan.i
+	@echo ... Core/Src/fdcan.s
 	@echo ... Core/Src/freertos.obj
 	@echo ... Core/Src/freertos.i
 	@echo ... Core/Src/freertos.s
@@ -1496,6 +1619,9 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.s
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.s
@@ -1586,6 +1712,9 @@ help:
 	@echo ... code_mf/Src/DEBUG_UART_TASK.obj
 	@echo ... code_mf/Src/DEBUG_UART_TASK.i
 	@echo ... code_mf/Src/DEBUG_UART_TASK.s
+	@echo ... code_mf/Src/DJI_motors.obj
+	@echo ... code_mf/Src/DJI_motors.i
+	@echo ... code_mf/Src/DJI_motors.s
 	@echo ... code_mf/Src/IMU_DATA_GET.obj
 	@echo ... code_mf/Src/IMU_DATA_GET.i
 	@echo ... code_mf/Src/IMU_DATA_GET.s
@@ -1595,6 +1724,12 @@ help:
 	@echo ... code_mf/Src/MahonyAHRS.obj
 	@echo ... code_mf/Src/MahonyAHRS.i
 	@echo ... code_mf/Src/MahonyAHRS.s
+	@echo ... code_mf/Src/bsp_can.obj
+	@echo ... code_mf/Src/bsp_can.i
+	@echo ... code_mf/Src/bsp_can.s
+	@echo ... code_mf/Src/can_receive.obj
+	@echo ... code_mf/Src/can_receive.i
+	@echo ... code_mf/Src/can_receive.s
 	@echo ... code_mf/Src/remote_control.obj
 	@echo ... code_mf/Src/remote_control.i
 	@echo ... code_mf/Src/remote_control.s

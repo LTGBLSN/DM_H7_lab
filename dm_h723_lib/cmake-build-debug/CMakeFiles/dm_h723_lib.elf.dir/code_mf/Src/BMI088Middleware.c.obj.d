@@ -42,6 +42,7 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_mdma.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_exti.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_cortex.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_fdcan.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash_ex.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_hsem.h \

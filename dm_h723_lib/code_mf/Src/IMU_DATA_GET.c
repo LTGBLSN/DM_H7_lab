@@ -8,6 +8,7 @@
 #include "BMI088driver.h"
 #include "MahonyAHRS.h"
 #include "IMU_DATA_GET.h"
+#include "DJI_motors.h"
 
 INS_t imu_data_from_board_BMI088_mahony;//板子xt30为后，灯的位置为前，正面朝上，遵循右手坐标系
 
@@ -34,6 +35,9 @@ void IMU_DATA_GET()
         imu_data_from_board_BMI088_mahony.roll_degree_angle = -INS_degree[1];
         imu_data_from_board_BMI088_mahony.yaw_degree_angle = INS_degree[0];
         imu_data_from_board_BMI088_mahony.pitch_degree_angle = INS_degree[2];
+
+        // 发送角度数据到FDCAN1
+        FDCAN_DJI_motors(0, 0, 0, 0, 0x1FF, CAN_CHANNEL_1);
 
 
 
