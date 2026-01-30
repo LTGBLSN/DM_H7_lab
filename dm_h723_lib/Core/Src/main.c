@@ -99,8 +99,12 @@ int main(void)
   MX_USART1_UART_Init();
   MX_UART5_Init();
   /* USER CODE BEGIN 2 */
-//    HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_subs_buff, SBUS_BUFF_SIZE * 2);
+#if REMOTE_TYPE == SBUS
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_subs_buff, SBUS_BUFF_SIZE * 2);
+#endif
+#if REMOTE_TYPE == DBUS
     HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_dbus_buff, DBUS_BUFF_SIZE);
+#endif
 
   /* USER CODE END 2 */
 

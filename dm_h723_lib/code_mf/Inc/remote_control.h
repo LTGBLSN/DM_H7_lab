@@ -4,61 +4,76 @@
 
 #ifndef DM_H723_LIB_REMOTE_CONTROL_H
 #define DM_H723_LIB_REMOTE_CONTROL_H
-//
-//#include "main.h"
-//
-//#define SBUS_BUFF_SIZE	25
-//
-//extern uint8_t rx_subs_buff[SBUS_BUFF_SIZE];
-//
-//
-//
-//
-//typedef struct
-//{
-//    uint16_t online;
-//
-//    struct
-//    {
-//        int16_t ch[10];
-//    } rc;
-//
-//    struct
-//    {
-//        /* STICK VALUE */
-//        int16_t left_vert;
-//        int16_t left_hori;
-//        int16_t right_vert;
-//        int16_t right_hori;
-//    } joy;
-//
-//    struct
-//    {
-//        /* VAR VALUE */
-//        float a;
-//        float b;
-//    } var;
-//
-//    struct
-//    {
-//        /* KEY VALUE */
-//        uint8_t a;
-//        uint8_t b;
-//        uint8_t c;
-//        uint8_t d;
-//        uint8_t e;
-//        uint8_t f;
-//        uint8_t g;
-//        uint8_t h;
-//    } key;
-//} subs_remoter_t;
-//extern subs_remoter_t sbus_remoter;
-//
-//
-//
 
 
 
+#define DBUS 0
+#define SBUS 1
+
+#define REMOTE_TYPE SBUS//Ò£¿ØÆ÷Ð­ÒéÇÐ»»£¬DBUS»òSBUS
+
+
+
+#if REMOTE_TYPE == SBUS
+
+#include "main.h"
+
+#define SBUS_BUFF_SIZE	25
+
+extern uint8_t rx_subs_buff[SBUS_BUFF_SIZE];
+
+
+
+
+typedef struct
+{
+    uint16_t online;
+
+    struct
+    {
+        int16_t ch[10];
+    } rc;
+
+    struct
+    {
+        /* STICK VALUE */
+        int16_t left_vert;
+        int16_t left_hori;
+        int16_t right_vert;
+        int16_t right_hori;
+    } joy;
+
+    struct
+    {
+        /* VAR VALUE */
+        float a;
+        float b;
+    } var;
+
+    struct
+    {
+        /* KEY VALUE */
+        uint8_t a;
+        uint8_t b;
+        uint8_t c;
+        uint8_t d;
+        uint8_t e;
+        uint8_t f;
+        uint8_t g;
+        uint8_t h;
+    } key;
+} subs_remoter_t;
+extern subs_remoter_t sbus_remoter;
+
+
+
+
+#endif
+
+
+
+
+#if REMOTE_TYPE == DBUS
 
 
 #include "main.h"
@@ -92,6 +107,8 @@ extern dbus_ctrl_t dbus_remoter;
 extern uint8_t rx_dbus_buff[DBUS_BUFF_SIZE];
 
 void dbus_frame_parse(dbus_ctrl_t *remoter, uint8_t *buf);
+
+#endif
 
 
 

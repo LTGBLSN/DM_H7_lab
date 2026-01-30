@@ -11,9 +11,9 @@ void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%d,%d\r\n",
-                      dbus_remoter.mouse.x,
-                      dbus_remoter.mouse.y
+        usart1_printf("%d,%d \r\n",
+                      sbus_remoter.rc.ch[0],
+                      sbus_remoter.rc.ch[1]
                       );
         osDelay(1);
     }
