@@ -604,6 +604,9 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/BMI088driver.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/CAN_SENT_TASK.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/DEBUG_UART_TASK.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>

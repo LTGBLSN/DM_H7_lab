@@ -123,6 +123,7 @@ int main(void)
 #if REMOTE_TYPE == SBUS
     HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_subs_buff, SBUS_BUFF_SIZE * 2);
 #endif
+
 #if REMOTE_TYPE == DBUS
     HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_dbus_buff, DBUS_BUFF_SIZE);
 #endif

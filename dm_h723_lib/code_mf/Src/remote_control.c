@@ -2,13 +2,6 @@
 // Created by 21481 on 2026/1/29.
 //
 
-
-
-
-
-
-
-
 #include "remote_control.h"
 #include "string.h"
 #include "usart.h"

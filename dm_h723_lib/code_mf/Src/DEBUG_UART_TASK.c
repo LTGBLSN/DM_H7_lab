@@ -13,8 +13,8 @@ void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%d \r\n",
-                      motor_can1_data[0].speed_rpm);
+        usart1_printf("%d \r\n",sbus_remoter.rc.ch[0]);
         osDelay(5);
     }
 }
+

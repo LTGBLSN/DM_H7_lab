@@ -52,6 +52,7 @@ osThreadId debug_uartHandle;
 osThreadId ledHandle;
 osThreadId get_rcHandle;
 osThreadId imu_dataHandle;
+osThreadId can_sentHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -63,6 +64,7 @@ void DEBUG_UART_TASK(void const * argument);
 void LED_TASK(void const * argument);
 void GET_RC_TASK(void const * argument);
 void IMU_DATA_GET(void const * argument);
+void CAN_SENT_TASK(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -128,6 +130,10 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of imu_data */
   osThreadDef(imu_data, IMU_DATA_GET, osPriorityIdle, 0, 1024);
   imu_dataHandle = osThreadCreate(osThread(imu_data), NULL);
+
+  /* definition and creation of can_sent */
+  osThreadDef(can_sent, CAN_SENT_TASK, osPriorityIdle, 0, 256);
+  can_sentHandle = osThreadCreate(osThread(can_sent), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -223,6 +229,24 @@ __weak void IMU_DATA_GET(void const * argument)
     osDelay(1);
   }
   /* USER CODE END IMU_DATA_GET */
+}
+
+/* USER CODE BEGIN Header_CAN_SENT_TASK */
+/**
+* @brief Function implementing the can_sent thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_CAN_SENT_TASK */
+__weak void CAN_SENT_TASK(void const * argument)
+{
+  /* USER CODE BEGIN CAN_SENT_TASK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END CAN_SENT_TASK */
 }
 
 /* Private application code --------------------------------------------------*/
