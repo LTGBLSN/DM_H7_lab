@@ -1216,6 +1216,54 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+code_mf/Src/BMI088Middleware.obj: code_mf/Src/BMI088Middleware.c.obj
+.PHONY : code_mf/Src/BMI088Middleware.obj
+
+# target to build an object file
+code_mf/Src/BMI088Middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj
+.PHONY : code_mf/Src/BMI088Middleware.c.obj
+
+code_mf/Src/BMI088Middleware.i: code_mf/Src/BMI088Middleware.c.i
+.PHONY : code_mf/Src/BMI088Middleware.i
+
+# target to preprocess a source file
+code_mf/Src/BMI088Middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.i
+.PHONY : code_mf/Src/BMI088Middleware.c.i
+
+code_mf/Src/BMI088Middleware.s: code_mf/Src/BMI088Middleware.c.s
+.PHONY : code_mf/Src/BMI088Middleware.s
+
+# target to generate assembly for a file
+code_mf/Src/BMI088Middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.s
+.PHONY : code_mf/Src/BMI088Middleware.c.s
+
+code_mf/Src/BMI088driver.obj: code_mf/Src/BMI088driver.c.obj
+.PHONY : code_mf/Src/BMI088driver.obj
+
+# target to build an object file
+code_mf/Src/BMI088driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj
+.PHONY : code_mf/Src/BMI088driver.c.obj
+
+code_mf/Src/BMI088driver.i: code_mf/Src/BMI088driver.c.i
+.PHONY : code_mf/Src/BMI088driver.i
+
+# target to preprocess a source file
+code_mf/Src/BMI088driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.i
+.PHONY : code_mf/Src/BMI088driver.c.i
+
+code_mf/Src/BMI088driver.s: code_mf/Src/BMI088driver.c.s
+.PHONY : code_mf/Src/BMI088driver.s
+
+# target to generate assembly for a file
+code_mf/Src/BMI088driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.s
+.PHONY : code_mf/Src/BMI088driver.c.s
+
 code_mf/Src/DEBUG_UART_TASK.obj: code_mf/Src/DEBUG_UART_TASK.c.obj
 .PHONY : code_mf/Src/DEBUG_UART_TASK.obj
 
@@ -1240,6 +1288,30 @@ code_mf/Src/DEBUG_UART_TASK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.s
 .PHONY : code_mf/Src/DEBUG_UART_TASK.c.s
 
+code_mf/Src/IMU_DATA_GET.obj: code_mf/Src/IMU_DATA_GET.c.obj
+.PHONY : code_mf/Src/IMU_DATA_GET.obj
+
+# target to build an object file
+code_mf/Src/IMU_DATA_GET.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj
+.PHONY : code_mf/Src/IMU_DATA_GET.c.obj
+
+code_mf/Src/IMU_DATA_GET.i: code_mf/Src/IMU_DATA_GET.c.i
+.PHONY : code_mf/Src/IMU_DATA_GET.i
+
+# target to preprocess a source file
+code_mf/Src/IMU_DATA_GET.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.i
+.PHONY : code_mf/Src/IMU_DATA_GET.c.i
+
+code_mf/Src/IMU_DATA_GET.s: code_mf/Src/IMU_DATA_GET.c.s
+.PHONY : code_mf/Src/IMU_DATA_GET.s
+
+# target to generate assembly for a file
+code_mf/Src/IMU_DATA_GET.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.s
+.PHONY : code_mf/Src/IMU_DATA_GET.c.s
+
 code_mf/Src/LED_TASK.obj: code_mf/Src/LED_TASK.c.obj
 .PHONY : code_mf/Src/LED_TASK.obj
 
@@ -1263,6 +1335,30 @@ code_mf/Src/LED_TASK.s: code_mf/Src/LED_TASK.c.s
 code_mf/Src/LED_TASK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.s
 .PHONY : code_mf/Src/LED_TASK.c.s
+
+code_mf/Src/MahonyAHRS.obj: code_mf/Src/MahonyAHRS.c.obj
+.PHONY : code_mf/Src/MahonyAHRS.obj
+
+# target to build an object file
+code_mf/Src/MahonyAHRS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj
+.PHONY : code_mf/Src/MahonyAHRS.c.obj
+
+code_mf/Src/MahonyAHRS.i: code_mf/Src/MahonyAHRS.c.i
+.PHONY : code_mf/Src/MahonyAHRS.i
+
+# target to preprocess a source file
+code_mf/Src/MahonyAHRS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.i
+.PHONY : code_mf/Src/MahonyAHRS.c.i
+
+code_mf/Src/MahonyAHRS.s: code_mf/Src/MahonyAHRS.c.s
+.PHONY : code_mf/Src/MahonyAHRS.s
+
+# target to generate assembly for a file
+code_mf/Src/MahonyAHRS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.s
+.PHONY : code_mf/Src/MahonyAHRS.c.s
 
 code_mf/Src/remote_control.obj: code_mf/Src/remote_control.c.obj
 .PHONY : code_mf/Src/remote_control.obj
@@ -1481,12 +1577,24 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... code_mf/Src/BMI088Middleware.obj
+	@echo ... code_mf/Src/BMI088Middleware.i
+	@echo ... code_mf/Src/BMI088Middleware.s
+	@echo ... code_mf/Src/BMI088driver.obj
+	@echo ... code_mf/Src/BMI088driver.i
+	@echo ... code_mf/Src/BMI088driver.s
 	@echo ... code_mf/Src/DEBUG_UART_TASK.obj
 	@echo ... code_mf/Src/DEBUG_UART_TASK.i
 	@echo ... code_mf/Src/DEBUG_UART_TASK.s
+	@echo ... code_mf/Src/IMU_DATA_GET.obj
+	@echo ... code_mf/Src/IMU_DATA_GET.i
+	@echo ... code_mf/Src/IMU_DATA_GET.s
 	@echo ... code_mf/Src/LED_TASK.obj
 	@echo ... code_mf/Src/LED_TASK.i
 	@echo ... code_mf/Src/LED_TASK.s
+	@echo ... code_mf/Src/MahonyAHRS.obj
+	@echo ... code_mf/Src/MahonyAHRS.i
+	@echo ... code_mf/Src/MahonyAHRS.s
 	@echo ... code_mf/Src/remote_control.obj
 	@echo ... code_mf/Src/remote_control.i
 	@echo ... code_mf/Src/remote_control.s

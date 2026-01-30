@@ -711,10 +711,38 @@ CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\dm_h723_lib.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/BMI088Middleware.c
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088Middleware.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088Middleware.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\BMI088Middleware.c
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.i"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\BMI088Middleware.c > CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088Middleware.c.i
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.s"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\BMI088Middleware.c -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088Middleware.c.s
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/BMI088driver.c
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088driver.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088driver.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\BMI088driver.c
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.i"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\BMI088driver.c > CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088driver.c.i
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.s"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\BMI088driver.c -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\BMI088driver.c.s
+
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/DEBUG_UART_TASK.c
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\DEBUG_UART_TASK.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\DEBUG_UART_TASK.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\DEBUG_UART_TASK.c
 
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.i: cmake_force
@@ -725,10 +753,24 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.s"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\DEBUG_UART_TASK.c -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\DEBUG_UART_TASK.c.s
 
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/IMU_DATA_GET.c
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\IMU_DATA_GET.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\IMU_DATA_GET.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\IMU_DATA_GET.c
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.i"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\IMU_DATA_GET.c > CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\IMU_DATA_GET.c.i
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.s"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\IMU_DATA_GET.c -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\IMU_DATA_GET.c.s
+
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/LED_TASK.c
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\LED_TASK.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\LED_TASK.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\LED_TASK.c
 
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.i: cmake_force
@@ -739,10 +781,24 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.s"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\LED_TASK.c -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\LED_TASK.c.s
 
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/MahonyAHRS.c
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\MahonyAHRS.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\MahonyAHRS.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\MahonyAHRS.c
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.i"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\MahonyAHRS.c > CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\MahonyAHRS.c.i
+
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.s"
+	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\MahonyAHRS.c -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\MahonyAHRS.c.s
+
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/remote_control.c
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\remote_control.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\remote_control.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\remote_control.c
 
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.i: cmake_force
@@ -756,7 +812,7 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.s: cmake_force
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/uart_printf.c
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\uart_printf.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\uart_printf.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\uart_printf.c
 
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.i: cmake_force
@@ -770,7 +826,7 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.s: cmake_force
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj: CMakeFiles/dm_h723_lib.elf.dir/flags.make
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj: D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/ws2812.c
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj: CMakeFiles/dm_h723_lib.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj"
 	C:\CLionToolchains\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj -MF CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\ws2812.c.obj.d -o CMakeFiles\dm_h723_lib.elf.dir\code_mf\Src\ws2812.c.obj -c D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\ws2812.c
 
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.i: cmake_force
@@ -829,8 +885,12 @@ dm_h723_lib_elf_OBJECTS = \
 "CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
+"CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj" \
+"CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj" \
 "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj" \
+"CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj" \
 "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj" \
+"CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj" \
 "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj" \
 "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj" \
 "CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj"
@@ -884,14 +944,19 @@ dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj
+dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088driver.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj
+dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/IMU_DATA_GET.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.obj
+dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/remote_control.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/uart_printf.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ws2812.c.obj
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/build.make
+dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/objects1.rsp
 dm_h723_lib.elf: CMakeFiles/dm_h723_lib.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking C executable dm_h723_lib.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C executable dm_h723_lib.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dm_h723_lib.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/cmake-build-debug/dm_h723_lib.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/cmake-build-debug/dm_h723_lib.bin"

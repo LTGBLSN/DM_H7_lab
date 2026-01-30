@@ -51,6 +51,7 @@ osThreadId defaultTaskHandle;
 osThreadId debug_uartHandle;
 osThreadId ledHandle;
 osThreadId get_rcHandle;
+osThreadId imu_dataHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -61,6 +62,7 @@ void StartDefaultTask(void const * argument);
 void DEBUG_UART_TASK(void const * argument);
 void LED_TASK(void const * argument);
 void GET_RC_TASK(void const * argument);
+void IMU_DATA_GET(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -112,7 +114,7 @@ void MX_FREERTOS_Init(void) {
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of debug_uart */
-  osThreadDef(debug_uart, DEBUG_UART_TASK, osPriorityIdle, 0, 128);
+  osThreadDef(debug_uart, DEBUG_UART_TASK, osPriorityIdle, 0, 1024);
   debug_uartHandle = osThreadCreate(osThread(debug_uart), NULL);
 
   /* definition and creation of led */
@@ -120,8 +122,12 @@ void MX_FREERTOS_Init(void) {
   ledHandle = osThreadCreate(osThread(led), NULL);
 
   /* definition and creation of get_rc */
-  osThreadDef(get_rc, GET_RC_TASK, osPriorityIdle, 0, 128);
+  osThreadDef(get_rc, GET_RC_TASK, osPriorityIdle, 0, 256);
   get_rcHandle = osThreadCreate(osThread(get_rc), NULL);
+
+  /* definition and creation of imu_data */
+  osThreadDef(imu_data, IMU_DATA_GET, osPriorityIdle, 0, 1024);
+  imu_dataHandle = osThreadCreate(osThread(imu_data), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -199,6 +205,24 @@ __weak void GET_RC_TASK(void const * argument)
     osDelay(1);
   }
   /* USER CODE END GET_RC_TASK */
+}
+
+/* USER CODE BEGIN Header_IMU_DATA_GET */
+/**
+* @brief Function implementing the imu_data thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_IMU_DATA_GET */
+__weak void IMU_DATA_GET(void const * argument)
+{
+  /* USER CODE BEGIN IMU_DATA_GET */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END IMU_DATA_GET */
 }
 
 /* Private application code --------------------------------------------------*/

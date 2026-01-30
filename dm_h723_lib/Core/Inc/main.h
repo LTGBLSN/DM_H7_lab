@@ -41,7 +41,10 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+extern float gyro[3], accel[3], temp;
+extern float INS_quat[4] ;
+extern float INS_angle[3] ;
+extern float INS_degree[3] ;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -63,6 +66,14 @@ void Error_Handler(void);
 #define POWER_OUT1_GPIO_Port GPIOC
 #define POWER_OUT5V_Pin GPIO_PIN_15
 #define POWER_OUT5V_GPIO_Port GPIOC
+#define ACC_CS_Pin GPIO_PIN_0
+#define ACC_CS_GPIO_Port GPIOC
+#define GYRO_CS_Pin GPIO_PIN_3
+#define GYRO_CS_GPIO_Port GPIOC
+#define ACC_INT_Pin GPIO_PIN_10
+#define ACC_INT_GPIO_Port GPIOE
+#define GYRO_INT_Pin GPIO_PIN_12
+#define GYRO_INT_GPIO_Port GPIOE
 
 /* USER CODE BEGIN Private defines */
 

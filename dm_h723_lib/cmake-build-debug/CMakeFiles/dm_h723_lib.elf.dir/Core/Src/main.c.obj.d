@@ -80,4 +80,5 @@ CMakeFiles/dm_h723_lib.elf.dir/Core/Src/main.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Core\Inc/gpio.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/ws2812.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/uart_printf.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/remote_control.h
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/remote_control.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/BMI088driver.h

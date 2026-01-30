@@ -30,6 +30,7 @@
 #include "ws2812.h"
 #include "uart_printf.h"
 #include "remote_control.h"
+#include "BMI088driver.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -50,7 +51,10 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+float gyro[3], accel[3], temp;
+float INS_quat[4] = {1.0f, 0.0f, 0.0f, 0.0f};
+float INS_angle[3] = {0.0f, 0.0f, 0.0f};
+float INS_degree[3] = {0.0f, 0.0f, 0.0f};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -98,7 +102,12 @@ int main(void)
   MX_SPI6_Init();
   MX_USART1_UART_Init();
   MX_UART5_Init();
+  MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
+
+    while(BMI088_init());
+
+    //about remote control
 #if REMOTE_TYPE == SBUS
     HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_subs_buff, SBUS_BUFF_SIZE * 2);
 #endif
