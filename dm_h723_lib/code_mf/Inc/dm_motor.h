@@ -17,6 +17,8 @@
 #define DM4310 0x01
 #define DM3507 0x02
 #define DM4340 0x03
+#define XIAOMI 0x04
+
 
 
 #define CMD_ENABLE_MODE      0x01
@@ -69,6 +71,18 @@
 #define DM4340_KD_MAX 5.0f
 #define DM4340_T_MIN (-28.0f)
 #define DM4340_T_MAX 28.0f
+
+
+#define XIAOMI_P_MIN (-12.5f)    // Radians
+#define XIAOMI_P_MAX 12.5f
+#define XIAOMI_V_MIN (-45.0f)    // Rad/s
+#define XIAOMI_V_MAX 45.0f
+#define XIAOMI_KP_MIN 0.0f     // N-m/rad
+#define XIAOMI_KP_MAX 500.0f
+#define XIAOMI_KD_MIN 0.0f     // N-m/rad/s
+#define XIAOMI_KD_MAX 5.0f
+#define XIAOMI_T_MIN (-18.0f)
+#define XIAOMI_T_MAX 18.0f
 
 extern struct dm_motor DM4340_01 ;
 

@@ -34,6 +34,7 @@
 #include "BMI088driver.h"
 #include "bsp_can.h"
 #include "dm_motor.h"
+#include "SHOOT_TASK.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,6 +59,10 @@ float gyro[3], accel[3], temp;
 float INS_quat[4] = {1.0f, 0.0f, 0.0f, 0.0f};
 float INS_angle[3] = {0.0f, 0.0f, 0.0f};
 float INS_degree[3] = {0.0f, 0.0f, 0.0f};
+
+//shoot
+float SHOOT_2006_ID1_GIVEN_SPEED ;
+int16_t SHOOT_2006_ID1_GIVEN_CURRENT ;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -131,6 +136,9 @@ int main(void)
     dm_motor_init();
 
     BSP_FDCAN_Init();
+
+    //拨弹盘电机初始化
+    shoot_2006_id1_speed_pid_init();//拨弹盘id1速度环初始化
 
   /* USER CODE END 2 */
 

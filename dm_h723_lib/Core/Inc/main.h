@@ -45,6 +45,10 @@ extern float gyro[3], accel[3], temp;
 extern float INS_quat[4] ;
 extern float INS_angle[3] ;
 extern float INS_degree[3] ;
+
+//shoot
+extern float SHOOT_2006_ID1_GIVEN_SPEED ;
+extern int16_t SHOOT_2006_ID1_GIVEN_CURRENT ;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

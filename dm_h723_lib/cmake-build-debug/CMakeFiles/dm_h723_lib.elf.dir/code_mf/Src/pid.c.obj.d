@@ -1,5 +1,7 @@
-CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj: \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\DEBUG_UART_TASK.c \
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/pid.c.obj: \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\pid.c \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/pid.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/struct_typedef.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Core\Inc/main.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Core\Inc/stm32h7xx_hal_conf.h \
@@ -54,29 +56,4 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/uart_printf.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Core\Inc/FreeRTOSConfig.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
- C:/CLionToolchains/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/reent.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/semphr.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/remote_control.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/IMU_DATA_GET.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/DJI_motors.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/dm_motor.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/struct_typedef.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/GET_RC_TASK.h
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h

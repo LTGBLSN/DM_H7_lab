@@ -1,5 +1,5 @@
-CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CAN_SENT_TASK.c.obj: \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\CAN_SENT_TASK.c \
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_RC_TASK.c.obj: \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Src\GET_RC_TASK.c \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
  C:/CLionToolchains/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
@@ -35,7 +35,7 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CAN_SENT_TASK.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/DJI_motors.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/GET_RC_TASK.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Core\Inc/main.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Core\Inc/stm32h7xx_hal_conf.h \
@@ -74,9 +74,4 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CAN_SENT_TASK.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/remote_control.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/can_receive.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/dm_motor.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/struct_typedef.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/dm_motor.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/GET_RC_TASK.h
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/remote_control.h

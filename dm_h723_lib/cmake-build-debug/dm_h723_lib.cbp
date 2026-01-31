@@ -574,10 +574,16 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/DJI_motors.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/GET_RC_TASK.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/IMU_DATA_GET.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/MahonyAHRS.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/SHOOT_TASK.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/bsp_can.h">
@@ -587,6 +593,9 @@
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/dm_motor.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/pid.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/remote_control.h">
@@ -616,6 +625,9 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/DJI_motors.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/GET_RC_TASK.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/IMU_DATA_GET.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
@@ -625,6 +637,9 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/MahonyAHRS.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/SHOOT_TASK.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/bsp_can.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
@@ -632,6 +647,9 @@
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/dm_motor.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/pid.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/remote_control.c">

@@ -9,13 +9,14 @@
 #include "IMU_DATA_GET.h"
 #include "DJI_motors.h"
 #include "dm_motor.h"
+#include "GET_RC_TASK.h"
 
 void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%f \r\n",DM4340_01.return_speed);
-        osDelay(5);
+        usart1_printf("%x \r\n", motor_can1_data[0].temperate);
+        osDelay(1);
     }
 }
 

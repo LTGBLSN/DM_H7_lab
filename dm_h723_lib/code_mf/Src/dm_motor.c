@@ -131,7 +131,21 @@ void Dm_Can_Send( uint8_t can_channel , uint8_t can_id , uint8_t motor_type , fl
             t = float_to_uint(f_t,      DM4340_T_MIN,  DM4340_T_MAX,  12);
             break;
         }
-
+        case XIAOMI:
+        {
+            LIMIT_MIN_MAX(f_p,  XIAOMI_P_MIN,  XIAOMI_P_MAX);
+            LIMIT_MIN_MAX(f_v,  XIAOMI_V_MIN,  XIAOMI_V_MAX);
+            LIMIT_MIN_MAX(f_kp, XIAOMI_KP_MIN, XIAOMI_KP_MAX);
+            LIMIT_MIN_MAX(f_kd, XIAOMI_KD_MIN, XIAOMI_KD_MAX);
+            LIMIT_MIN_MAX(f_t,  XIAOMI_T_MIN,  XIAOMI_T_MAX);
+            /* 根据协议，对float参数进行转换 */
+            p = float_to_uint(f_p,      XIAOMI_P_MIN,  XIAOMI_P_MAX,  16);
+            v = float_to_uint(f_v,      XIAOMI_V_MIN,  XIAOMI_V_MAX,  12);
+            kp = float_to_uint(f_kp,    XIAOMI_KP_MIN, XIAOMI_KP_MAX, 12);
+            kd = float_to_uint(f_kd,    XIAOMI_KD_MIN, XIAOMI_KD_MAX, 12);
+            t = float_to_uint(f_t,      XIAOMI_T_MIN,  XIAOMI_T_MAX,  12);
+            break;
+        }
         default:
         {
             break;

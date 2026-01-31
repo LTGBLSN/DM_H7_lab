@@ -53,6 +53,8 @@ osThreadId ledHandle;
 osThreadId get_rcHandle;
 osThreadId imu_dataHandle;
 osThreadId can_sentHandle;
+osThreadId shoot_taskHandle;
+osThreadId stop_checkHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -65,6 +67,8 @@ void LED_TASK(void const * argument);
 void GET_RC_TASK(void const * argument);
 void IMU_DATA_GET(void const * argument);
 void CAN_SENT_TASK(void const * argument);
+void SHOOT_TASK(void const * argument);
+void SHOOOT_STOP_CHECK(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -134,6 +138,14 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of can_sent */
   osThreadDef(can_sent, CAN_SENT_TASK, osPriorityIdle, 0, 256);
   can_sentHandle = osThreadCreate(osThread(can_sent), NULL);
+
+  /* definition and creation of shoot_task */
+  osThreadDef(shoot_task, SHOOT_TASK, osPriorityIdle, 0, 128);
+  shoot_taskHandle = osThreadCreate(osThread(shoot_task), NULL);
+
+  /* definition and creation of stop_check */
+  osThreadDef(stop_check, SHOOOT_STOP_CHECK, osPriorityIdle, 0, 128);
+  stop_checkHandle = osThreadCreate(osThread(stop_check), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -247,6 +259,42 @@ __weak void CAN_SENT_TASK(void const * argument)
     osDelay(1);
   }
   /* USER CODE END CAN_SENT_TASK */
+}
+
+/* USER CODE BEGIN Header_SHOOT_TASK */
+/**
+* @brief Function implementing the shoot_task thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_SHOOT_TASK */
+__weak void SHOOT_TASK(void const * argument)
+{
+  /* USER CODE BEGIN SHOOT_TASK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END SHOOT_TASK */
+}
+
+/* USER CODE BEGIN Header_SHOOOT_STOP_CHECK */
+/**
+* @brief Function implementing the stop_check thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_SHOOOT_STOP_CHECK */
+__weak void SHOOOT_STOP_CHECK(void const * argument)
+{
+  /* USER CODE BEGIN SHOOOT_STOP_CHECK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END SHOOOT_STOP_CHECK */
 }
 
 /* Private application code --------------------------------------------------*/

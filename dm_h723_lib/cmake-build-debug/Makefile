@@ -1384,6 +1384,30 @@ code_mf/Src/DJI_motors.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DJI_motors.c.s
 .PHONY : code_mf/Src/DJI_motors.c.s
 
+code_mf/Src/GET_RC_TASK.obj: code_mf/Src/GET_RC_TASK.c.obj
+.PHONY : code_mf/Src/GET_RC_TASK.obj
+
+# target to build an object file
+code_mf/Src/GET_RC_TASK.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_RC_TASK.c.obj
+.PHONY : code_mf/Src/GET_RC_TASK.c.obj
+
+code_mf/Src/GET_RC_TASK.i: code_mf/Src/GET_RC_TASK.c.i
+.PHONY : code_mf/Src/GET_RC_TASK.i
+
+# target to preprocess a source file
+code_mf/Src/GET_RC_TASK.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_RC_TASK.c.i
+.PHONY : code_mf/Src/GET_RC_TASK.c.i
+
+code_mf/Src/GET_RC_TASK.s: code_mf/Src/GET_RC_TASK.c.s
+.PHONY : code_mf/Src/GET_RC_TASK.s
+
+# target to generate assembly for a file
+code_mf/Src/GET_RC_TASK.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_RC_TASK.c.s
+.PHONY : code_mf/Src/GET_RC_TASK.c.s
+
 code_mf/Src/IMU_DATA_GET.obj: code_mf/Src/IMU_DATA_GET.c.obj
 .PHONY : code_mf/Src/IMU_DATA_GET.obj
 
@@ -1456,6 +1480,30 @@ code_mf/Src/MahonyAHRS.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MahonyAHRS.c.s
 .PHONY : code_mf/Src/MahonyAHRS.c.s
 
+code_mf/Src/SHOOT_TASK.obj: code_mf/Src/SHOOT_TASK.c.obj
+.PHONY : code_mf/Src/SHOOT_TASK.obj
+
+# target to build an object file
+code_mf/Src/SHOOT_TASK.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/SHOOT_TASK.c.obj
+.PHONY : code_mf/Src/SHOOT_TASK.c.obj
+
+code_mf/Src/SHOOT_TASK.i: code_mf/Src/SHOOT_TASK.c.i
+.PHONY : code_mf/Src/SHOOT_TASK.i
+
+# target to preprocess a source file
+code_mf/Src/SHOOT_TASK.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/SHOOT_TASK.c.i
+.PHONY : code_mf/Src/SHOOT_TASK.c.i
+
+code_mf/Src/SHOOT_TASK.s: code_mf/Src/SHOOT_TASK.c.s
+.PHONY : code_mf/Src/SHOOT_TASK.s
+
+# target to generate assembly for a file
+code_mf/Src/SHOOT_TASK.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/SHOOT_TASK.c.s
+.PHONY : code_mf/Src/SHOOT_TASK.c.s
+
 code_mf/Src/bsp_can.obj: code_mf/Src/bsp_can.c.obj
 .PHONY : code_mf/Src/bsp_can.obj
 
@@ -1527,6 +1575,30 @@ code_mf/Src/dm_motor.s: code_mf/Src/dm_motor.c.s
 code_mf/Src/dm_motor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/dm_motor.c.s
 .PHONY : code_mf/Src/dm_motor.c.s
+
+code_mf/Src/pid.obj: code_mf/Src/pid.c.obj
+.PHONY : code_mf/Src/pid.obj
+
+# target to build an object file
+code_mf/Src/pid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/pid.c.obj
+.PHONY : code_mf/Src/pid.c.obj
+
+code_mf/Src/pid.i: code_mf/Src/pid.c.i
+.PHONY : code_mf/Src/pid.i
+
+# target to preprocess a source file
+code_mf/Src/pid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/pid.c.i
+.PHONY : code_mf/Src/pid.c.i
+
+code_mf/Src/pid.s: code_mf/Src/pid.c.s
+.PHONY : code_mf/Src/pid.s
+
+# target to generate assembly for a file
+code_mf/Src/pid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/pid.c.s
+.PHONY : code_mf/Src/pid.c.s
 
 code_mf/Src/remote_control.obj: code_mf/Src/remote_control.c.obj
 .PHONY : code_mf/Src/remote_control.obj
@@ -1766,6 +1838,9 @@ help:
 	@echo ... code_mf/Src/DJI_motors.obj
 	@echo ... code_mf/Src/DJI_motors.i
 	@echo ... code_mf/Src/DJI_motors.s
+	@echo ... code_mf/Src/GET_RC_TASK.obj
+	@echo ... code_mf/Src/GET_RC_TASK.i
+	@echo ... code_mf/Src/GET_RC_TASK.s
 	@echo ... code_mf/Src/IMU_DATA_GET.obj
 	@echo ... code_mf/Src/IMU_DATA_GET.i
 	@echo ... code_mf/Src/IMU_DATA_GET.s
@@ -1775,6 +1850,9 @@ help:
 	@echo ... code_mf/Src/MahonyAHRS.obj
 	@echo ... code_mf/Src/MahonyAHRS.i
 	@echo ... code_mf/Src/MahonyAHRS.s
+	@echo ... code_mf/Src/SHOOT_TASK.obj
+	@echo ... code_mf/Src/SHOOT_TASK.i
+	@echo ... code_mf/Src/SHOOT_TASK.s
 	@echo ... code_mf/Src/bsp_can.obj
 	@echo ... code_mf/Src/bsp_can.i
 	@echo ... code_mf/Src/bsp_can.s
@@ -1784,6 +1862,9 @@ help:
 	@echo ... code_mf/Src/dm_motor.obj
 	@echo ... code_mf/Src/dm_motor.i
 	@echo ... code_mf/Src/dm_motor.s
+	@echo ... code_mf/Src/pid.obj
+	@echo ... code_mf/Src/pid.i
+	@echo ... code_mf/Src/pid.s
 	@echo ... code_mf/Src/remote_control.obj
 	@echo ... code_mf/Src/remote_control.i
 	@echo ... code_mf/Src/remote_control.s
