@@ -7,9 +7,7 @@
 
 #include "main.h"
 
-#define CAN_CHANNEL_1 1
-#define CAN_CHANNEL_2 2
-#define CAN_CHANNEL_3 3
+
 
 //rm motor data
 typedef struct

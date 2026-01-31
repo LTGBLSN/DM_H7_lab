@@ -33,6 +33,7 @@
 #include "remote_control.h"
 #include "BMI088driver.h"
 #include "bsp_can.h"
+#include "dm_motor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -127,6 +128,7 @@ int main(void)
 #if REMOTE_TYPE == DBUS
     HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_dbus_buff, DBUS_BUFF_SIZE);
 #endif
+    dm_motor_init();
 
     BSP_FDCAN_Init();
 

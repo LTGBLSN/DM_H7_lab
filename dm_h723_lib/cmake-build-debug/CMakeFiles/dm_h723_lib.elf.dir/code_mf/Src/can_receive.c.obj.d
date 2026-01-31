@@ -55,4 +55,8 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/can_receive.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/DJI_motors.h
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/DJI_motors.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/dm_motor.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/struct_typedef.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/can_receive.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/dm_motor.h

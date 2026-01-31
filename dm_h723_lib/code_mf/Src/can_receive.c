@@ -5,6 +5,8 @@
 
 #include "main.h"
 #include "DJI_motors.h"
+#include "dm_motor.h"
+#include "can_receive.h"
 
 //motor data read
 #define get_motor_measure(ptr, data)                                    \
@@ -52,6 +54,11 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
                     uint8_t i = rx_header.Identifier - 0x201;
                     get_motor_measure(&motor_can1_data[i], rx_data);
                     break;
+                }
+
+                case 0x11:
+                {
+                    DM_motors_parse(&DM4340_01, rx_data);
                 }
                 default:
                     break;
@@ -103,3 +110,31 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 }
 
 
+/**
+ * @brief  解析达妙电机反馈数据并更新到指定结构体
+ * @param  motor_ptr: 指向对应电机结构体的指针 (例如 &DM4340_01)
+ * @param  rx_DM_data: 接收到的 8 字节原始数据
+ */
+void DM_motors_parse(struct dm_motor *motor_ptr, const uint8_t rx_DM_data[8])
+{
+    if (motor_ptr == NULL) return;
+
+    int p_int;
+    int v_int;
+    int t_int;
+
+    // 1. 解析原始数据
+    motor_ptr->state = (rx_DM_data[0]) >> 4;
+    p_int = (rx_DM_data[1] << 8) | rx_DM_data[2];
+    v_int = (rx_DM_data[3] << 4) | (rx_DM_data[4] >> 4);
+    t_int = ((rx_DM_data[4] & 0xF) << 8) | rx_DM_data[5];
+
+    // 2. 转换并仅更新反馈数成员，不触碰其他成员
+    motor_ptr->return_angle = uint_to_float(p_int, DM4340_P_MIN, DM4340_P_MAX, 16);
+    motor_ptr->return_speed = uint_to_float(v_int, DM4340_V_MIN, DM4340_V_MAX, 12);
+    motor_ptr->return_tor   = uint_to_float(t_int, DM4340_T_MIN, DM4340_T_MAX, 12);
+    motor_ptr->Tmos         = (float)(rx_DM_data[6]);
+    motor_ptr->Tcoil        = (float)(rx_DM_data[7]);
+
+    // 此时，motor_ptr->target_angle 等其他成员完全不会被改变
+}

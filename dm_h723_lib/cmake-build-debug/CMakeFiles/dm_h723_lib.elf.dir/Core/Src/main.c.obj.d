@@ -84,4 +84,6 @@ CMakeFiles/dm_h723_lib.elf.dir/Core/Src/main.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/uart_printf.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/remote_control.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/BMI088driver.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/bsp_can.h
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/bsp_can.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/dm_motor.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/struct_typedef.h

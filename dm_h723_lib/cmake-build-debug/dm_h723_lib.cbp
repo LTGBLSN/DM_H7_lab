@@ -586,6 +586,9 @@
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/can_receive.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/dm_motor.h">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Inc/remote_control.h">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
@@ -626,6 +629,9 @@
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/can_receive.c">
+			<Option target="dm_h723_lib.elf"/>
+		</Unit>
+		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/dm_motor.c">
 			<Option target="dm_h723_lib.elf"/>
 		</Unit>
 		<Unit filename="D:/RoboMaster_git/DM_H7_lab/dm_h723_lib/code_mf/Src/remote_control.c">

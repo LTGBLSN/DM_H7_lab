@@ -8,12 +8,13 @@
 #include "remote_control.h"
 #include "IMU_DATA_GET.h"
 #include "DJI_motors.h"
+#include "dm_motor.h"
 
 void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%d \r\n",sbus_remoter.rc.ch[0]);
+        usart1_printf("%f \r\n",DM4340_01.return_speed);
         osDelay(5);
     }
 }

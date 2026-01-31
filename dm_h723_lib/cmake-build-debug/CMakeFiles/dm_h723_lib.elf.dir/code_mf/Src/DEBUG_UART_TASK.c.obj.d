@@ -76,4 +76,6 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj: \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/remote_control.h \
  D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/IMU_DATA_GET.h \
- D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/DJI_motors.h
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/DJI_motors.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/dm_motor.h \
+ D:\RoboMaster_git\DM_H7_lab\dm_h723_lib\code_mf\Inc/struct_typedef.h

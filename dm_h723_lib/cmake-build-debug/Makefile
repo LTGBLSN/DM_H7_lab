@@ -1504,6 +1504,30 @@ code_mf/Src/can_receive.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/can_receive.c.s
 .PHONY : code_mf/Src/can_receive.c.s
 
+code_mf/Src/dm_motor.obj: code_mf/Src/dm_motor.c.obj
+.PHONY : code_mf/Src/dm_motor.obj
+
+# target to build an object file
+code_mf/Src/dm_motor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/dm_motor.c.obj
+.PHONY : code_mf/Src/dm_motor.c.obj
+
+code_mf/Src/dm_motor.i: code_mf/Src/dm_motor.c.i
+.PHONY : code_mf/Src/dm_motor.i
+
+# target to preprocess a source file
+code_mf/Src/dm_motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/dm_motor.c.i
+.PHONY : code_mf/Src/dm_motor.c.i
+
+code_mf/Src/dm_motor.s: code_mf/Src/dm_motor.c.s
+.PHONY : code_mf/Src/dm_motor.s
+
+# target to generate assembly for a file
+code_mf/Src/dm_motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/dm_motor.c.s
+.PHONY : code_mf/Src/dm_motor.c.s
+
 code_mf/Src/remote_control.obj: code_mf/Src/remote_control.c.obj
 .PHONY : code_mf/Src/remote_control.obj
 
@@ -1757,6 +1781,9 @@ help:
 	@echo ... code_mf/Src/can_receive.obj
 	@echo ... code_mf/Src/can_receive.i
 	@echo ... code_mf/Src/can_receive.s
+	@echo ... code_mf/Src/dm_motor.obj
+	@echo ... code_mf/Src/dm_motor.i
+	@echo ... code_mf/Src/dm_motor.s
 	@echo ... code_mf/Src/remote_control.obj
 	@echo ... code_mf/Src/remote_control.i
 	@echo ... code_mf/Src/remote_control.s
