@@ -10,7 +10,10 @@
 
 
 #define LIMIT_MIN_MAX(x,min,max) (x) = (((x)<=(min))?(min):(((x)>=(max))?(max):(x)))
-
+#define DM_STATE_DISABLED  0x00 //失能状态
+#define DM_STATE_ENABLED   0x01 //使能状态
+#define DM_STATE_UV        0x09 // 欠压
+#define DM_STATE_OC        0x0A // 过流
 
 
 
