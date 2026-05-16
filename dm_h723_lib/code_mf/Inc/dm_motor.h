@@ -6,6 +6,7 @@
 #define DM_H723_LIB_DM_MOTOR_H
 
 #include "struct_typedef.h"
+#include "main.h"
 
 
 #define LIMIT_MIN_MAX(x,min,max) (x) = (((x)<=(min))?(min):(((x)>=(max))?(max):(x)))
@@ -38,8 +39,8 @@
 #define DM8009P_T_MAX 54.0f
 
 
-#define DM4310_P_MIN (-12.5f)    // Radians
-#define DM4310_P_MAX 12.5f
+#define DM4310_P_MIN (-3.14159f)    // Radians
+#define DM4310_P_MAX 3.14159f
 #define DM4310_V_MIN (-30.0f)    // Rad/s
 #define DM4310_V_MAX 30.0f
 #define DM4310_KP_MIN 0.0f     // N-m/rad
@@ -61,8 +62,8 @@
 #define DM3507_T_MAX 10.0f
 
 
-#define DM4340_P_MIN (-12.5f)    // Radians
-#define DM4340_P_MAX 12.5f
+#define DM4340_P_MIN (-3.14159f)    // Radians
+#define DM4340_P_MAX 3.14159f
 #define DM4340_V_MIN (-10.0f)    // Rad/s
 #define DM4340_V_MAX 10.0f
 #define DM4340_KP_MIN 0.0f     // N-m/rad
@@ -101,6 +102,7 @@ struct dm_motor{
     float return_tor;//回传力矩
     float Tmos;//mos温度
     float Tcoil;//线圈温度
+    uint32_t last_online_time;//上一次返回数据的时间
 
     //控制部分
     float give_angle;//目标位置（非MIT！）
