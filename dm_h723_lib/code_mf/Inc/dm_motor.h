@@ -96,6 +96,7 @@ struct dm_motor{
     uint8_t can_channel;//can1还是can2
 
     //回传部分
+    uint8_t online_state ;//在线状态
     uint8_t state;//状态
     float return_angle;//回传位置
     float return_speed;//回传速度
