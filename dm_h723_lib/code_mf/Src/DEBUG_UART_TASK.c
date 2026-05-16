@@ -15,7 +15,8 @@ void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%x \r\n", motor_can1_data[0].temperate);
+        usart1_printf("%d \r\n", rcData.rc.ch[0]);
+        // usart1_printf("hello world \r\n");
         osDelay(1);
     }
 }
