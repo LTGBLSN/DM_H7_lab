@@ -62,6 +62,8 @@ float INS_degree[3] = {0.0f, 0.0f, 0.0f};
 //shoot
 float SHOOT_2006_ID1_GIVEN_SPEED ;
 int16_t SHOOT_2006_ID1_GIVEN_CURRENT ;
+
+int16_t KEY_STATE ;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -139,7 +141,7 @@ int main(void)
     BSP_FDCAN_Init();
 
     shoot_2006_id1_speed_pid_init();
-  
+
 
 
   /* USER CODE END 2 */

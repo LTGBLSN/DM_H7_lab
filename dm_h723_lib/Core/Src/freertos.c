@@ -56,6 +56,7 @@ osThreadId can_sentHandle;
 osThreadId shoot_taskHandle;
 osThreadId stop_checkHandle;
 osThreadId rs485Handle;
+osThreadId read_keyHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -71,6 +72,7 @@ void CAN_SENT_TASK(void const * argument);
 void SHOOT_TASK(void const * argument);
 void SHOOOT_STOP_CHECK(void const * argument);
 void RS485_SENT_TASK(void const * argument);
+void READ_KEY_TASK(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -152,6 +154,10 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of rs485 */
   osThreadDef(rs485, RS485_SENT_TASK, osPriorityIdle, 0, 256);
   rs485Handle = osThreadCreate(osThread(rs485), NULL);
+
+  /* definition and creation of read_key */
+  osThreadDef(read_key, READ_KEY_TASK, osPriorityIdle, 0, 128);
+  read_keyHandle = osThreadCreate(osThread(read_key), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -319,6 +325,24 @@ __weak void RS485_SENT_TASK(void const * argument)
     osDelay(1);
   }
   /* USER CODE END RS485_SENT_TASK */
+}
+
+/* USER CODE BEGIN Header_READ_KEY_TASK */
+/**
+* @brief Function implementing the read_key thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_READ_KEY_TASK */
+__weak void READ_KEY_TASK(void const * argument)
+{
+  /* USER CODE BEGIN READ_KEY_TASK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END READ_KEY_TASK */
 }
 
 /* Private application code --------------------------------------------------*/

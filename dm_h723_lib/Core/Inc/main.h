@@ -49,6 +49,8 @@ extern float INS_degree[3] ;
 //shoot
 extern float SHOOT_2006_ID1_GIVEN_SPEED ;
 extern int16_t SHOOT_2006_ID1_GIVEN_CURRENT ;
+
+extern int16_t KEY_STATE ;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -78,6 +80,8 @@ void Error_Handler(void);
 #define ACC_INT_GPIO_Port GPIOE
 #define GYRO_INT_Pin GPIO_PIN_12
 #define GYRO_INT_GPIO_Port GPIOE
+#define KEY_Pin GPIO_PIN_15
+#define KEY_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
