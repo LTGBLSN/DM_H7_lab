@@ -11,11 +11,11 @@ void LED_TASK()
 {
     while (1)
     {
-        WS2812_Ctrl(255, 0, 0);
+        WS2812_Ctrl(10, 0, 0);
         osDelay(1000);
-        WS2812_Ctrl(0, 255, 0);
+        WS2812_Ctrl(0, 10, 0);
         osDelay(1000);
-        WS2812_Ctrl(0, 0, 255);
+        WS2812_Ctrl(0, 0, 10);
         osDelay(1000);
     }
 }

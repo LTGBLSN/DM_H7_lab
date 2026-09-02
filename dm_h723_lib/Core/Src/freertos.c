@@ -55,6 +55,7 @@ osThreadId imu_dataHandle;
 osThreadId can_sentHandle;
 osThreadId shoot_taskHandle;
 osThreadId stop_checkHandle;
+osThreadId rs485Handle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -69,6 +70,7 @@ void IMU_DATA_GET(void const * argument);
 void CAN_SENT_TASK(void const * argument);
 void SHOOT_TASK(void const * argument);
 void SHOOOT_STOP_CHECK(void const * argument);
+void RS485_SENT_TASK(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -146,6 +148,10 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of stop_check */
   osThreadDef(stop_check, SHOOOT_STOP_CHECK, osPriorityIdle, 0, 128);
   stop_checkHandle = osThreadCreate(osThread(stop_check), NULL);
+
+  /* definition and creation of rs485 */
+  osThreadDef(rs485, RS485_SENT_TASK, osPriorityIdle, 0, 256);
+  rs485Handle = osThreadCreate(osThread(rs485), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -295,6 +301,24 @@ __weak void SHOOOT_STOP_CHECK(void const * argument)
     osDelay(1);
   }
   /* USER CODE END SHOOOT_STOP_CHECK */
+}
+
+/* USER CODE BEGIN Header_RS485_SENT_TASK */
+/**
+* @brief Function implementing the rs485 thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_RS485_SENT_TASK */
+__weak void RS485_SENT_TASK(void const * argument)
+{
+  /* USER CODE BEGIN RS485_SENT_TASK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END RS485_SENT_TASK */
 }
 
 /* Private application code --------------------------------------------------*/

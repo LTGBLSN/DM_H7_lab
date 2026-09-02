@@ -21,7 +21,6 @@
 #include "cmsis_os.h"
 #include "dma.h"
 #include "fdcan.h"
-#include "memorymap.h"
 #include "spi.h"
 #include "usart.h"
 #include "gpio.h"
@@ -121,6 +120,8 @@ int main(void)
   MX_FDCAN3_Init();
   MX_UART7_Init();
   MX_USART10_UART_Init();
+  MX_USART3_UART_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
     while(BMI088_init());
@@ -137,8 +138,9 @@ int main(void)
 
     BSP_FDCAN_Init();
 
-    //拨弹盘电机初始化
-    shoot_2006_id1_speed_pid_init();//拨弹盘id1速度环初始化
+    shoot_2006_id1_speed_pid_init();
+  
+
 
   /* USER CODE END 2 */
 
